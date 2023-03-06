@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/mount-tables.js"></script>
+    <script defer src="./js/controller.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <title>Qual a placa?</title>
+</head>
+
+<body>
+    <h1>Qual a placa?</h1>
+    <p id="subtitle">O Qual é a placa é um projeto focado em apresentar para o público os dados das principais placas 
+        de vídeo de forma rápida e fácil, assim o usuário consegue achar o que é melhor para si só de 
+        bater o olho. Conheça de onde tiramos os dados
+    </p>
+    <h2>Veja o custo-benefício das placas de vídeo de acordo com a resolução</h2>
+    <section class="data-table">
+        <div id="table-header">
+            <div class="resolution-selection">
+                <button id="tab-button1" class="tabs active-button" onclick="showTab('tab1')">1080p (Full HD)</button>
+                |
+                <button id="tab-button2" class="tabs" onclick="showTab('tab2')">1440 (Quad HD)</button>
+                |
+                <button id="tab-button3" class="tabs" onclick="showTab('tab3')">2160 (4K)</button>
+            </div>
+        </div>
+        <table id='1080p-table' class="tablecontent active-tab">
+            <tr>
+                <th class="table-th">GPU</th>
+                <th class="table-th">Média FPS</th>
+                <th class="table-th">Janeiro 5</th>
+                <th class="table-th">Janeiro 25</th>
+                <th class="table-th">Fevereiro 11</th>
+                <th class="table-th">Diferença %</th>
+                <th class="table-th">CPF Janeiro 5</th>
+                <th class="table-th">CPF Janeiro 25</th>
+                <th class="table-th">CPF Fevereiro 11</th>
+             </tr>
+        </table>
+        <table id='1440p-table' class="tablecontent">
+            <tr>
+                <th class="table-th">GPU</th>
+                <th class="table-th">Média FPS</th>
+                <th class="table-th">Janeiro 5</th>
+                <th class="table-th">Janeiro 25</th>
+                <th class="table-th">Fevereiro 11</th>
+                <th class="table-th">Diferença %</th>
+                <th class="table-th">CPF Janeiro 5</th>
+                <th class="table-th">CPF Janeiro 25</th>
+                <th class="table-th">CPF Fevereiro 11</th>
+             </tr>
+        </table>
+        <table id='2160p-table' class="tablecontent">
+            <tr>
+                <th class="table-th">GPU</th>
+                <th class="table-th">Média FPS</th>
+                <th class="table-th">Janeiro 5</th>
+                <th class="table-th">Janeiro 25</th>
+                <th class="table-th">Fevereiro 11</th>
+                <th class="table-th">Diferença %</th>
+                <th class="table-th">CPF Janeiro 5</th>
+                <th class="table-th">CPF Janeiro 25</th>
+                <th class="table-th">CPF Fevereiro 11</th>
+             </tr>
+        </table>
+        <div class="legend">
+            <p>Legenda:</p>
+            <p class="label-p">CPF (Custo por frame)</div></p>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
