@@ -28,8 +28,24 @@ h2 {
     margin-right: auto;
 }
 
+main {
+    display: flex;
+}
+
+.ads-banner {
+    width: 20%;
+}
+
+.publi-text {
+    text-align: center;
+    font-size: 10px;
+    color: #555555;
+
+    margin-top: 50px;
+}
+
 .data-table {
-    width: 70%;
+    width: 60%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
