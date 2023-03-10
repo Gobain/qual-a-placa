@@ -152,6 +152,35 @@ main {
     background-color: #006c74;
 }
 
-footer {
+.data-explanation {
+    width: 70%;
+
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explanation-h2 {
+
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #111111;
+
+    padding: 15px 0;
+
+    margin-top: 50px;
+}
+
+.footer-img {
+    display: block;
+
+    width: 200px;
+
+    background-color: #111111;
+
+    margin-left: auto;
+    margin-right: auto;
 }
