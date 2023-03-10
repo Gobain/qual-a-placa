@@ -152,6 +152,20 @@ main {
     background-color: #006c74;
 }
 
+.data-explanation {
+    width: 70%;
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explanation-h2 {
+
+    margin: 0;
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #111111;
 
