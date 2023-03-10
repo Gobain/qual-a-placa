@@ -166,6 +166,10 @@ main {
     margin-bottom: 20px;
 }
 
+.explanation-link {
+    color: #00ff22;
+}
+
 footer {
     background-color: #111111;
 
