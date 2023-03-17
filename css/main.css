@@ -39,7 +39,9 @@ main {
 iframe {
     display: block;
 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .publi-text {
