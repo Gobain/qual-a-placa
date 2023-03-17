@@ -36,12 +36,21 @@ main {
     width: 20%;
 }
 
+iframe {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
 .publi-text {
     text-align: center;
     font-size: 10px;
     color: #555555;
 
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .data-table {
@@ -166,7 +175,7 @@ main {
     margin-bottom: 20px;
 }
 
-.explanation-link {
+a {
     color: #00ff22;
 }
 
