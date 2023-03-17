@@ -36,12 +36,19 @@ main {
     width: 20%;
 }
 
+iframe {
+    display: block;
+
+    margin: auto;
+}
+
 .publi-text {
     text-align: center;
     font-size: 10px;
     color: #555555;
 
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .data-table {
