@@ -227,6 +227,12 @@ footer {
         left: 0;
     }
 
+    .amd-line {
+        position: sticky;
+
+        left: 0;
+    }
+
     .table-th-gpu {
         position: sticky;
 
