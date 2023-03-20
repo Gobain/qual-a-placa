@@ -197,3 +197,45 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+.mobile-ads {
+    display: none;
+}
+
+/* =================== MOBILE ======================= */
+
+@media (max-width: 720px) {
+    #subtitle {
+        margin-bottom: 50px;
+    }
+
+    .ads-banner {
+        display: none;
+    }
+
+    .data-table {
+        width: 90%;
+    }
+
+    .tablecontent {
+        overflow-x: scroll;
+    }
+
+    .nvidia-line {
+        position: sticky;
+
+        left: 0;
+    }
+
+    .table-th-gpu {
+        position: sticky;
+
+        left: 0;
+
+        z-index: 10;
+    }
+
+    .mobile-ads {
+        display: block;
+    }
+}
