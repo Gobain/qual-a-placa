@@ -32,9 +32,6 @@ main {
     display: flex;
 }
 
-.ads-banner {
-    width: 20%;
-}
 
 iframe {
     display: block;
@@ -198,19 +195,11 @@ footer {
     margin-right: auto;
 }
 
-.mobile-ads {
-    display: none;
-}
-
 /* =================== MOBILE ======================= */
 
 @media (max-width: 720px) {
     #subtitle {
         margin-bottom: 50px;
-    }
-
-    .ads-banner {
-        display: none;
     }
 
     .data-table {
@@ -239,9 +228,5 @@ footer {
         left: 0;
 
         z-index: 10;
-    }
-
-    .mobile-ads {
-        display: block;
     }
 }
