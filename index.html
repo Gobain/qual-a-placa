@@ -25,7 +25,6 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="./css/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -33,93 +32,8 @@
     </head>
 
     <body>
-        <img src="./img/logo.png" alt="logo do 'qual a placa?'" class="logo-img">
-        <p id="subtitle">O Qual é a placa é um projeto focado em apresentar para o público os dados das principais
-            placas
-            de vídeo de forma rápida e fácil, assim o usuário consegue achar o que é melhor para si só de
-            bater o olho. Conheça de onde tiramos os <a href="#explanation">dados</a>.
-        </p>
-        <h2>Veja o custo-benefício das placas de vídeo de acordo com a resolução</h2>
-        <main>
-            <section id="left-banner" class="ads-banner">
-                <p class="publi-text">PUBLICIDADE</p>
-            </section>
-            <section class="data-table">
-                <div id="table-header">
-                    <div class="resolution-selection">
-                        <button id="tab-button1" class="tabs active-button" onclick="showTab('tab1')">1080p (Full
-                            HD)</button>
-                        |
-                        <button id="tab-button2" class="tabs" onclick="showTab('tab2')">1440 (Quad HD)</button>
-                        |
-                        <button id="tab-button3" class="tabs" onclick="showTab('tab3')">2160 (4K)</button>
-                    </div>
-                </div>
-                <table id='1080p-table' class="tablecontent active-tab">
-                    <tr>
-                        <th class="table-th table-th-gpu">GPU</th>
-                        <th class="table-th">Média FPS</th>
-                        <th class="table-th">Janeiro 5</th>
-                        <th class="table-th">Janeiro 25</th>
-                        <th class="table-th">Fevereiro 11</th>
-                        <th class="table-th">Diferença %</th>
-                        <th class="table-th">CPF Janeiro 5</th>
-                        <th class="table-th">CPF Janeiro 25</th>
-                        <th class="table-th">CPF Fevereiro 11</th>
-                    </tr>
-                </table>
-                <table id='1440p-table' class="tablecontent">
-                    <tr>
-                        <th class="table-th table-th-gpu">GPU</th>
-                        <th class="table-th">Média FPS</th>
-                        <th class="table-th">Janeiro 5</th>
-                        <th class="table-th">Janeiro 25</th>
-                        <th class="table-th">Fevereiro 11</th>
-                        <th class="table-th">Diferença %</th>
-                        <th class="table-th">CPF Janeiro 5</th>
-                        <th class="table-th">CPF Janeiro 25</th>
-                        <th class="table-th">CPF Fevereiro 11</th>
-                    </tr>
-                </table>
-                <table id='2160p-table' class="tablecontent">
-                    <tr>
-                        <th class="table-th table-th-gpu">GPU</th>
-                        <th class="table-th">Média FPS</th>
-                        <th class="table-th">Janeiro 5</th>
-                        <th class="table-th">Janeiro 25</th>
-                        <th class="table-th">Fevereiro 11</th>
-                        <th class="table-th">Diferença %</th>
-                        <th class="table-th">CPF Janeiro 5</th>
-                        <th class="table-th">CPF Janeiro 25</th>
-                        <th class="table-th">CPF Fevereiro 11</th>
-                    </tr>
-                </table>
-                <div class="legend">
-                    <p>Legenda:</p>
-                    <p class="label-p">CPF (Custo por frame)</p>
-                </div>
-            </section>
-            <section id="right-banner" class="ads-banner">
-                <p class="publi-text">PUBLICIDADE</p>
-            </section>
-        </main>
-        <section class="data-explanation">
-            <h2 id="explanation" class="explanation-h2">De onde retiramos os dados?</h2>
-            <p>
-                Os dados usados neste site são retirados através dos vídeos de guia de compras da <a
-                    href="https://www.youtube.com/@CanalChipart" class="explanation-link">Chipart</a>.
-                <br>
-                Apesar de usarmos os dados da Chipart, não há ligação entre eles e este site. Apenas gostamos do
-                trabalho realizado por eles.
-                <br>
-                Esses dados são disponibilizados gratuitamente para todos, por isso, considere se inscrever no canal
-                deles no Youtube e se possível virar membro do canal e apoiá-los financeiramente para que continuem
-                trazendo conteúdo gratuito e de qualidade para a comunidade brasileira.
-            </p>
-        </section>
-        <footer>
-            <img src="./img/logo.png" alt="logo do 'qual a placa?'" class="footer-img">
-        </footer>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
     </body>
 
 </html>
