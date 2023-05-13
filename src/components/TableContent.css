@@ -8,6 +8,13 @@
 .amd-line {
     text-align: left;
     color: #ff0000;
+
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.intel-line {
+    text-align: left;
+    color: #0032d8;
   
     border-bottom: 1px solid #FFFFFF;
 }
