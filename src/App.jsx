@@ -16,18 +16,6 @@ function App() {
       <h2>Veja o custo-benefício das placas de vídeo de acordo com a resolução</h2>
       <main>
         <section className="data-table">
-
-          {/* <div id="table-header">
-            <div className="resolution-selection">
-              <button id="tab-button1" className="tabs active-button" onClick="showTab('tab1')">1080p (Full
-                HD)</button>
-              |
-              <button id="tab-button2" className="tabs" onClick="showTab('tab2')">1440 (Quad HD)</button>
-              |
-              <button id="tab-button3" className="tabs" onClick="showTab('tab3')">2160 (4K)</button>
-            </div>
-          </div> */}
-
           <table id='1080p-table' className="tablecontent active-tab">
             <thead>
               <tr>
