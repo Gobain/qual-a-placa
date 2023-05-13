@@ -57,15 +57,19 @@ function App() {
       <section className="data-explanation">
         <h2 id="explanation" className="explanation-h2">De onde retiramos os dados?</h2>
         <p>
-          Os dados usados neste site são retirados através dos vídeos de guia de compras da <a
-            href="https://www.youtube.com/@CanalChipart" className="explanation-link">Chipart</a>.
+          Os dados de performance usados neste site são retirados do <a href='https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html'>Tom's Hardware</a>.
+          Usamos a tabela de rasterização pura (sem Ray Tracing ou DLSS). Todos os dados de
+          performance consideram as colunas na qualidade "Ultra", ignorando a coluna "Medium" do Tom's
+          Hardware.
           <br />
-          Apesar de usarmos os dados da Chipart, não há ligação entre eles e este site. Apenas gostamos do
-          trabalho realizado por eles.
           <br />
-          Esses dados são disponibilizados gratuitamente para todos, por isso, considere se inscrever no canal
-          deles no Youtube e se possível virar membro do canal e apoiá-los financeiramente para que continuem
-          trazendo conteúdo gratuito e de qualidade para a comunidade brasileira.
+          O preço de cada placa é medido através de uma média entre as 3 principais lojas gamers do
+          mercado brasileiro, a Kabum, Pichau e Terabyte.
+          <br />
+          <br />
+          As atualizações de preço ocorrem entre uma a duas vezes por mês, dependendo da movimentação
+          de preços do mercado. Já as atualizações de performance ocorrem com menos frequência, dependendo
+          da atualização por parte do Tom's Hardware.
         </p>
       </section>
       <footer>
