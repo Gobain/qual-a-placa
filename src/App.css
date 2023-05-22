@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+  background-color: #020202;
+
+  color: #FFFFFF;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 400;
+}
+
+.logo-img {
+  display: block;
+  width: 250px;
+  margin: 50px auto;
+}
+
+#subtitle {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+h2 {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  display: flex;
+}
+
+
+iframe {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.publi-text {
+  text-align: center;
+  font-size: 10px;
+  color: #555555;
+
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.data-table {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table-header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+
+  font-size: 10px;
+
+  margin-top: 10px;
+}
+
+.label-p {
+  margin-left: 15px;
+}
+
+.resolution-selection {
+  align-items: center;
+
+  width: fit-content;
+}
+
+.tablecontent {
+
+  font-size: 13px;
+  border-spacing:0;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-th {
+  position: sticky;
+
+  top: 0;
+
+  padding: 0 15px 15px 15px;
+
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.tabs {
+  border: none;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.active-button {
+  background-color: #FFFFFF;
+  color: #020202;
+}
+
+.positive-difference {
+  color: rgb(255, 0, 0);
+}
+
+.negative-difference {
+  color: rgb(9, 255, 0);
+}
+
+.recommended-gpu {
+  background-color: #ffa052;
+}
+
+.ideal-gpu {
+  background-color: #006c74;
+}
+
+.data-explanation {
+  width: 70%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.explanation-h2 {
+  text-align: left;
+
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #00ff22;
+}
+
+footer {
+  background-color: #111111;
+
+  padding: 15px 0;
+
+  margin-top: 50px;
+}
+
+.footer-img {
+  display: block;
+
+  width: 200px;
+
+  background-color: #111111;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =================== MOBILE ======================= */
+
+@media (max-width: 720px) {
+  #subtitle {
+      margin-bottom: 50px;
+  }
+
+  .data-table {
+      width: 90%;
+  }
+
+  .tablecontent {
+      overflow-x: scroll;
+  }
+
+  .table-th-gpu {
+      position: sticky;
+
+      left: 0;
+
+      z-index: 10;
+  }
+}

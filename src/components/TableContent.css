@@ -1,0 +1,43 @@
+.nvidia-line {
+    text-align: left;
+    color: #00ff22;
+  
+    border-bottom: 1px solid #FFFFFF;
+}
+  
+.amd-line {
+    text-align: left;
+    color: #ff0000;
+
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.intel-line {
+    text-align: left;
+    color: #4a74ff;
+  
+    border-bottom: 1px solid #FFFFFF;
+}
+  
+.gpu-data {
+    text-align: center;
+  
+  
+    padding: 10px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/* =================== MOBILE ======================= */
+
+@media (max-width: 720px) {
+
+    .nvidia-line {
+        position: sticky;
+        left: 0;
+    }
+
+    .amd-line {
+        position: sticky;
+        left: 0;
+    }
+}
