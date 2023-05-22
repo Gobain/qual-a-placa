@@ -36,10 +36,6 @@ function App() {
             </tbody>
           </table>
 
-          <div className="legend">
-            <p>Legenda:</p>
-            <p className="label-p">CPF (Custo por frame)</p>
-          </div>
         </section>
       </main>
       <section className="data-explanation">
