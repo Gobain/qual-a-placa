@@ -139,11 +139,30 @@ iframe {
   margin-right: auto;
 }
 
+.changelog {
+  width: 70%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .explanation-h2 {
   text-align: left;
+  color: #00ff22;
 
   margin: 0;
   margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+li {
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 
 a {
