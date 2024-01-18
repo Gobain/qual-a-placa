@@ -201,6 +201,7 @@
   
     .tablecontent {
         overflow-x: scroll;
+        display: block;
     }
   
     .table-th-gpu {
