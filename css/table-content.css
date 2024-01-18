@@ -31,12 +31,7 @@
 
 @media (max-width: 720px) {
 
-    .nvidia-line {
-        position: sticky;
-        left: 0;
-    }
-
-    .amd-line {
+    .nvidia-line, .amd-line, .intel-line {
         position: sticky;
         left: 0;
     }
