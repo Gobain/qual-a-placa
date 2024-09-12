@@ -1,186 +1,209 @@
 [
-    {
-        "name": "RTX 4090",
-        "brand": "nvidia",
-        "fps_1080": "151.6",
-        "fps_1440": "143.1",
-        "fps_2160": "114.1",
-        "price": "11000"
-    },
-    {
-        "name": "RX 7900 XTX",
-        "brand": "amd",
-        "fps_1080": "147.5",
-        "fps_1440": "133.7",
-        "fps_2160": "93",
-        "price": "7233"
-    },
-    {
-        "name": "RTX 4080",
-        "brand": "nvidia",
-        "fps_1080": "142.5",
-        "fps_1440": "129",
-        "fps_2160": "88.7",
-        "price": "8100"
-    },
-    {
-        "name": "RX 7900 XT",
-        "brand": "amd",
-        "fps_1080": "141.2",
-        "fps_1440": "124.3",
-        "fps_2160": "79.6",
-        "price": "6416"
-    },
-    {
-        "name": "RTX 4070 TI",
-        "brand": "nvidia",
-        "fps_1080": "135.2",
-        "fps_1440": "115.1",
-        "fps_2160": "71.8",
-        "price": "5696"
-    },
-    {
-        "name": "RTX 3080 TI",
-        "brand": "nvidia",
-        "fps_1080": "126",
-        "fps_1440": "105.8",
-        "fps_2160": "69.1",
-        "price": "5900"
-    },
-    {
-        "name": "RTX 4070",
-        "brand": "nvidia",
-        "fps_1080": "123.2",
-        "fps_1440": "98.9",
-        "fps_2160": "57.2",
-        "price": "4130"
-    },
-    {
-        "name": "RX 6800",
-        "brand": "amd",
-        "fps_1080": "116.3",
-        "fps_1440": "90.2",
-        "fps_2160": "50.9",
-        "price": "3800"
-    },
-    {
-        "name": "RTX 3070 TI",
-        "brand": "nvidia",
-        "fps_1080": "105.8",
-        "fps_1440": "84.4",
-        "fps_2160": "47.7",
-        "price": "3500"
-    },
-    {
-        "name": "RX 6750 XT",
-        "brand": "amd",
-        "fps_1080": "104.2",
-        "fps_1440": "77.7",
-        "fps_2160": "42.8",
-        "price": "3550"
-    },
-    {
-        "name": "RTX 4060 TI",
-        "brand": "nvidia",
-        "fps_1080": "101.7",
-        "fps_1440": "75.5",
-        "fps_2160": "39.6",
-        "price": "2650"
-    },
-    {
-        "name": "RTX 3070",
-        "brand": "nvidia",
-        "fps_1080": "100.5",
-        "fps_1440": "79",
-        "fps_2160": "44.4",
-        "price": "3500"
-    },
-    {
-        "name": "RX 6700 XT",
-        "brand": "amd",
-        "fps_1080": "100.3",
-        "fps_1440": "73.5",
-        "fps_2160": "40.3",
-        "price": "3000"
-    },
-    {
-        "name": "RTX 3060 TI",
-        "brand": "nvidia",
-        "fps_1080": "92.3",
-        "fps_1440": "71",
-        "fps_2160": "Não Medido",
-        "price": "2625"
-    },
-    {
-        "name": "RTX 4060",
-        "brand": "nvidia",
-        "fps_1080": "84.9",
-        "fps_1440": "61.2",
-        "fps_2160": "31.9",
-        "price": "1900"
-    },
-    {
-        "name": "Arc A770 16GB",
-        "brand": "intel",
-        "fps_1080": "76.9",
-        "fps_1440": "59.8",
-        "fps_2160": "35.3",
-        "price": "2400"
-    },
-    {
-        "name": "Arc A770 8GB",
-        "brand": "intel",
-        "fps_1080": "75.3",
-        "fps_1440": "57.5",
-        "fps_2160": "33.2",
-        "price": "1700"
-    },
-    {
-        "name": "RTX 3060",
-        "brand": "nvidia",
-        "fps_1080": "73",
-        "fps_1440": "54",
-        "fps_2160": "Não Medido",
-        "price": "1700"
-    },
-    {
-        "name": "Arc A750",
-        "brand": "intel",
-        "fps_1080": "70.8",
-        "fps_1440": "53.7",
-        "fps_2160": "31.1",
-        "price": "1430"
-    },
-    {
-        "name": "RX 6600",
-        "brand": "amd",
-        "fps_1080": "67.3",
-        "fps_1440": "46.6",
-        "fps_2160": "Não Medido",
-        "price": "1225"
-    },
-    {
-        "name": "RTX 3050",
-        "brand": "nvidia",
-        "fps_1080": "51.9",
-        "fps_1440": "88.8",
-        "fps_2160": "Não Medido",
-        "price": "1420"
-    },
-    {
-        "name": "RX 6500 XT",
-        "brand": "amd",
-        "fps_1080": "30.6",
-        "fps_1440": "18",
-        "fps_2160": "Não Medido",
-        "price": "1200"
-    },
-    {
-        "name": "Arc A380",
-        "brand": "intel",
-        "fps_1080": "28.4",
-        "fps_1440": "19.5",
-        "fps_2160": "Não Medido",
-        "price": "900"
-    }
+  {
+    "name": "RTX 4090",
+    "brand": "nvidia",
+    "fps_1080": "151.6",
+    "fps_1440": "143.1",
+    "fps_2160": "114.1",
+    "price": "11000",
+    "link": "https://amzn.to/3AXO4Ke"
+  },
+  {
+    "name": "RX 7900 XTX",
+    "brand": "amd",
+    "fps_1080": "147.5",
+    "fps_1440": "133.7",
+    "fps_2160": "93",
+    "price": "7233",
+    "link": "https://amzn.to/3zkW4EL"
+  },
+  {
+    "name": "RTX 4080",
+    "brand": "nvidia",
+    "fps_1080": "142.5",
+    "fps_1440": "129",
+    "fps_2160": "88.7",
+    "price": "8100",
+    "link": "https://amzn.to/3TqfuyO"
+  },
+  {
+    "name": "RX 7900 XT",
+    "brand": "amd",
+    "fps_1080": "141.2",
+    "fps_1440": "124.3",
+    "fps_2160": "79.6",
+    "price": "6416",
+    "link": "https://amzn.to/3XGoJNR"
+  },
+  {
+    "name": "RTX 4070 TI",
+    "brand": "nvidia",
+    "fps_1080": "135.2",
+    "fps_1440": "115.1",
+    "fps_2160": "71.8",
+    "price": "5696",
+    "link": "https://amzn.to/4enm9BQ"
+  },
+  {
+    "name": "RTX 3080 TI",
+    "brand": "nvidia",
+    "fps_1080": "126",
+    "fps_1440": "105.8",
+    "fps_2160": "69.1",
+    "price": "5900",
+    "link": "https://amzn.to/3z7UeXU"
+  },
+  {
+    "name": "RTX 4070",
+    "brand": "nvidia",
+    "fps_1080": "123.2",
+    "fps_1440": "98.9",
+    "fps_2160": "57.2",
+    "price": "4130",
+    "link": "https://amzn.to/4gyAz4e"
+  },
+  {
+    "name": "RX 6800",
+    "brand": "amd",
+    "fps_1080": "116.3",
+    "fps_1440": "90.2",
+    "fps_2160": "50.9",
+    "price": "3800",
+    "link": "https://amzn.to/3zfgn6C"
+  },
+  {
+    "name": "RTX 3070 TI",
+    "brand": "nvidia",
+    "fps_1080": "105.8",
+    "fps_1440": "84.4",
+    "fps_2160": "47.7",
+    "price": "3500",
+    "link": "https://amzn.to/3XHuD1p"
+  },
+  {
+    "name": "RX 6750 XT",
+    "brand": "amd",
+    "fps_1080": "104.2",
+    "fps_1440": "77.7",
+    "fps_2160": "42.8",
+    "price": "3550",
+    "link": "https://amzn.to/4eoH73x"
+  },
+  {
+    "name": "RTX 4060 TI",
+    "brand": "nvidia",
+    "fps_1080": "101.7",
+    "fps_1440": "75.5",
+    "fps_2160": "39.6",
+    "price": "2650",
+    "link": "https://amzn.to/4gl1uQN"
+  },
+  {
+    "name": "RTX 3070",
+    "brand": "nvidia",
+    "fps_1080": "100.5",
+    "fps_1440": "79",
+    "fps_2160": "44.4",
+    "price": "3500",
+    "link": "https://amzn.to/3ZoaDlr"
+  },
+  {
+    "name": "RX 6700 XT",
+    "brand": "amd",
+    "fps_1080": "100.3",
+    "fps_1440": "73.5",
+    "fps_2160": "40.3",
+    "price": "3000",
+    "link": "https://amzn.to/3Be57ru"
+  },
+  {
+    "name": "RTX 3060 TI",
+    "brand": "nvidia",
+    "fps_1080": "92.3",
+    "fps_1440": "71",
+    "fps_2160": "Não Medido",
+    "price": "2625",
+    "link": "https://amzn.to/3TtF2et"
+  },
+  {
+    "name": "RTX 4060",
+    "brand": "nvidia",
+    "fps_1080": "84.9",
+    "fps_1440": "61.2",
+    "fps_2160": "31.9",
+    "price": "1900",
+    "link": "https://amzn.to/3MGAr4G"
+  },
+  {
+    "name": "Arc A770 16GB",
+    "brand": "intel",
+    "fps_1080": "76.9",
+    "fps_1440": "59.8",
+    "fps_2160": "35.3",
+    "price": "2400",
+    "link": "https://amzn.to/47lhUVn"
+  },
+  {
+    "name": "Arc A770 8GB",
+    "brand": "intel",
+    "fps_1080": "75.3",
+    "fps_1440": "57.5",
+    "fps_2160": "33.2",
+    "price": "1700",
+    "link": "https://amzn.to/3z6SXAl"
+  },
+  {
+    "name": "RTX 3060",
+    "brand": "nvidia",
+    "fps_1080": "73",
+    "fps_1440": "54",
+    "fps_2160": "Não Medido",
+    "price": "1700",
+    "link": "https://amzn.to/3MN6Y9e"
+  },
+  {
+    "name": "Arc A750",
+    "brand": "intel",
+    "fps_1080": "70.8",
+    "fps_1440": "53.7",
+    "fps_2160": "31.1",
+    "price": "1430",
+    "link": "https://amzn.to/4gBMyy3"
+  },
+  {
+    "name": "RX 6600",
+    "brand": "amd",
+    "fps_1080": "67.3",
+    "fps_1440": "46.6",
+    "fps_2160": "Não Medido",
+    "price": "1225",
+    "link": "https://amzn.to/4ggYCo9"
+  },
+  {
+    "name": "RTX 3050",
+    "brand": "nvidia",
+    "fps_1080": "51.9",
+    "fps_1440": "88.8",
+    "fps_2160": "Não Medido",
+    "price": "1420",
+    "link": "https://amzn.to/3XK5djO"
+  },
+  {
+    "name": "RX 6500 XT",
+    "brand": "amd",
+    "fps_1080": "30.6",
+    "fps_1440": "18",
+    "fps_2160": "Não Medido",
+    "price": "1200",
+    "link": "https://amzn.to/3zoXiic"
+  },
+  {
+    "name": "Arc A380",
+    "brand": "intel",
+    "fps_1080": "28.4",
+    "fps_1440": "19.5",
+    "fps_2160": "Não Medido",
+    "price": "900",
+    "link": "https://amzn.to/3Tti7Qn"
+  }
 ]
