@@ -29,6 +29,10 @@ async function createTable() {
 
                         newButton.classList.add("buy-button");
 
+                        newButton.onclick = () => {
+                            return gtag_report_conversion(content[1]);
+                        };
+
                         newLink.appendChild(newButton);
                         cell.appendChild(newLink);
                     }
